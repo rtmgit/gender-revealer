@@ -9,7 +9,7 @@ function App() {
 
   return (
       <Switch>
-        <Route exact path="/gender-revealer" component={HomePage} />
+        <Route exact path="/" component={HomePage} />
         <ContextRoute exact path='/getDetails'component={ GetDetailsPage } />
         <ContextRoute exact path='/revealIt' component={ GenderRevealerPage } />
       </Switch>
